@@ -1,0 +1,6 @@
+@import url('./src/reset.css');
+@import url('./src/variables.css');
+
+@import url('./src/header.css');
+@import url('./src/hamburger.css');
+@import url('.src/.footer.css');
