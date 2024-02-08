@@ -1,0 +1,52 @@
+@import url('./variables.css');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--light-color);
+
+    font-family: var(--montserrat);
+    color: var(--dark-color);
+    margin: 0 auto;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+p {
+    max-width: 75ch;
+    text-wrap: pretty;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :has(:target) {
+        scroll-behavior: smooth;
+    }
+}
