@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Rubik+Glitch&display=swap');
+
+:root {
+    --dark-color: #0c0c0c;
+    --light-color: #fff;
+    --blue: #97bae9;
+    --purple: #793fbb;
+    --pink: #f2889b;
+    --yellow: #f4c87b;
+
+    --purple-gradient: linear-gradient(#7c05f2, #150259);
+
+    --montserrat: 'Montserrat', sans-serif;
+    --rubik-glitch: 'Rubik Glitch', system-ui;
+}
