@@ -10,6 +10,9 @@
 
     --purple-gradient: linear-gradient(#7c05f2, #150259);
 
+    --paragraph-size: 1rem;
+    --sub-heading: 
+
     --montserrat: 'Montserrat', sans-serif;
     --rubik-glitch: 'Rubik Glitch', system-ui;
 }
