@@ -1,0 +1,131 @@
+@import url('./reset.css');
+@import url('./variables.css');
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    height: 450px;
+
+    padding: 3rem 8rem;
+
+    background: var(--dark-color);
+    color: var(--light-color);
+
+    & a {
+        color: inherit;
+        font-weight: 700;
+    }
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    & span {
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
+
+.info-wrapper > div p:nth-child(1),
+.info-wrapper > div a:nth-child(1),
+.info-wrapper > div > div input {
+    margin-top: 1rem;
+}
+
+.info-wrapper__location {
+    display: flex;
+    flex-direction: column;
+    & a {
+        margin-top: 0.5rem;
+    }
+}
+
+.info-wrapper__opening-hours > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.info-wrapper__quick-links a {
+    display: flex;
+}
+
+.info-wrapper__newsletter .input-wrapper {
+    border-bottom: 1px solid var(--light-color);
+}
+
+.info-wrapper__newsletter input[type='email'] {
+    padding: 0.75rem 0;
+
+    background: transparent;
+
+    font-size: 0.75rem;
+    font-weight: 300;
+
+    border: none;
+}
+
+.info-wrapper__newsletter input[type='email'] {
+    width: 250px;
+}
+
+.info-wrapper__newsletter button[type='submit'] {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.info-wrapper-bottom {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 4rem;
+
+    color: inherit;
+}
+
+.info-wrapper-bottom .logo {
+    display: flex;
+    align-items: center;
+
+    & img {
+        width: 50px;
+    }
+}
+
+.info-wrapper-bottom .text {
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+
+    & span {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    & p {
+        font-size: 0.75rem;
+    }
+}
+
+.info-wrapper-bottom__social-media {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.info-wrapper-bottom__social-media > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+
+    height: 45px;
+    width: 45px;
+
+    border: 1px solid var(--light-color);
+    border-radius: 50%;
+}
