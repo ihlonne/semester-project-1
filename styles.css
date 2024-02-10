@@ -2,8 +2,7 @@
 @import url('./src/variables.css');
 
 @import url('./src/header.css');
-@import url('./src/hamburger.css');
-@import url('.src/.footer.css');
+@import url('./src/footer.css');
 
 /* ----- HERO ----- */
 
@@ -16,6 +15,10 @@
     width: 90%;
 
     margin: 0 auto;
+
+    @media only screen and (max-width: 800px) {
+        width: 100%;
+    }
 }
 
 .hero-wrapper__background {
@@ -48,24 +51,24 @@
     }
 }
 
-.custom-shape-divider-bottom-1707487344 {
+.custom-shape-divider-bottom-1707593276 {
     position: absolute;
-    bottom: -1px;
-    left: -1px;
+    bottom: 0;
+    left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1707487344 svg {
+.custom-shape-divider-bottom-1707593276 svg {
     position: relative;
     display: block;
-    width: calc(154% + 1.3px);
+    width: calc(150% + 1.3px);
     height: 99px;
 }
 
-.custom-shape-divider-bottom-1707487344 .shape-fill {
+.custom-shape-divider-bottom-1707593276 .shape-fill {
     fill: #ffffff;
 }
 
@@ -85,6 +88,11 @@
         font-size: 1.75rem;
         font-weight: 700;
         margin: 6rem auto 1rem auto;
+
+        @media only screen and (max-width: 800px) {
+            text-align: center;
+            font-size: 1.25rem;
+        }
     }
 }
 
@@ -123,28 +131,34 @@
             color: var(--light-color);
             font-weight: 700;
         }
+
+        @media only screen and (max-width: 800px) {
+            padding: 4rem 2rem;
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        flex-direction: column;
     }
 }
 
 .events__other-events {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    justify-content: center;
     gap: 2rem;
+    width: 80%;
 
-    margin-top: 2rem;
+    margin: 2rem;
 }
 
-.events__other-events .card {
-    max-width: 550px;
-    height: auto;
+.events__other-events .card img {
+    width: 100%;
+    max-height: 50%;
+    object-fit: cover;
+}
 
-    > div img {
-        width: 100%;
-        max-height: 300px;
-        object-fit: cover;
-    }
-
+.events__other-events .card__info {
     & h3 {
         margin: 0.5rem 0 2rem 0;
         text-transform: uppercase;
@@ -158,5 +172,8 @@
     & a {
         color: var(--purple);
         font-weight: 700;
+    }
+    @media only screen and (max-width: 450px) {
+        margin: 0 1rem;
     }
 }
