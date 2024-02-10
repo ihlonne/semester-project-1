@@ -1,6 +1,8 @@
 @import url('./reset.css');
 @import url('./variables.css');
 
+/* ----- FOOTER ----- */
+
 .footer-wrapper {
     display: flex;
     flex-direction: column;
@@ -10,7 +12,6 @@
     margin-top: 4rem;
 
     width: 100%;
-    height: 450px;
 
     background: var(--dark-color);
     color: var(--light-color);
@@ -19,15 +20,34 @@
         color: inherit;
         font-weight: 700;
     }
+
+    @media only screen and (max-width: 800px) {
+        padding: 3rem 2rem;
+    }
 }
+
+/* ----- TOP SECTION ----- */
 
 .info-wrapper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     & span {
         text-transform: uppercase;
         font-weight: 700;
+    }
+}
+
+.info-wrapper > div {
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (max-width: 800px) {
+        justify-content: center;
+        align-items: center;
+        margin-top: 6rem;
+        width: 100%;
     }
 }
 
@@ -38,10 +58,12 @@
 }
 
 .info-wrapper__location {
-    display: flex;
-    flex-direction: column;
     & a {
         margin-top: 0.5rem;
+    }
+
+    @media only screen and (max-width: 800px) {
+        text-align: center;
     }
 }
 
@@ -53,10 +75,18 @@
 
 .info-wrapper__quick-links a {
     display: flex;
+
+    @media only screen and (max-width: 800px) {
+        justify-content: center;
+    }
 }
 
 .info-wrapper__newsletter .input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid var(--light-color);
+    max-width: 250px;
 }
 
 .info-wrapper__newsletter input[type='email'] {
@@ -72,6 +102,7 @@
 
 .info-wrapper__newsletter input[type='email'] {
     width: 250px;
+    max-width: 250px;
 }
 
 .info-wrapper__newsletter button[type='submit'] {
@@ -80,6 +111,8 @@
     cursor: pointer;
 }
 
+/* ----- BOTTOM SECTION ----- */
+
 .info-wrapper-bottom {
     display: flex;
     justify-content: space-between;
@@ -87,6 +120,12 @@
     margin-top: 4rem;
 
     color: inherit;
+
+    @media only screen and (max-width: 800px) {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 8rem;
+    }
 }
 
 .info-wrapper-bottom .logo {
