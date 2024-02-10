@@ -31,6 +31,7 @@
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
+        <input type="checkbox" name="toggler" class="toggler" />
         <header class="header-wrapper">
             <div class="header-wrapper__left">
                 <img
@@ -43,60 +44,16 @@
                 </div>
             </div>
             <div class="header-wrapper__right">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="./index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="./index.html"
-                                ><details>
-                                    <summary>Activities</summary>
-                                    <li>
-                                        <a href="./pages/about/about.html"
-                                            >Events</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a href="./pages/about/about.html"
-                                            >Exhibitions</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a href="./pages/about/about.html"
-                                            >Book a birthday party</a
-                                        >
-                                    </li>
-                                </details></a
-                            >
-                        </li>
-                        <li>
-                            <a href="#women-container">Contribute?</a>
-                        </li>
-                        <li>
-                            <a href="#men-container">About us</a>
-                        </li>
-                        <li>
-                            <a href="./pages/about/about.html">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-        <input type="checkbox" name="toggler" class="toggler" />
-        <header class="mobile-header-wrapper">
-            <nav class="menu-wrap">
-                <div class="hamburger">
-                    <div></div>
-                </div>
-                <div class="menu">
-                    <div>
+                <nav class="menu-wrap">
+                    <div class="hamburger">
+                        <div></div>
+                    </div>
+                    <div class="menu">
                         <div>
-                            <ul class="navigation__links">
-                                <li>
-                                    <a href="./index.html"
-                                        ><details>
+                            <div>
+                                <ul class="navigation__links">
+                                    <li>
+                                        <details>
                                             <summary>Activities</summary>
                                             <li>
                                                 <a
@@ -116,47 +73,47 @@
                                                     >Book a birthday party</a
                                                 >
                                             </li>
-                                        </details></a
-                                    >
-                                </li>
-                                <li>
-                                    <a href="#women-container"
-                                        >Want to contribute?</a
-                                    >
-                                </li>
-                                <li>
-                                    <a href="#men-container"
-                                        >About Bergen Science Museum</a
-                                    >
-                                </li>
-                                <li>
-                                    <a href="./pages/about/about.html"
-                                        >Need to contact us?</a
-                                    >
-                                </li>
-                            </ul>
+                                </details>
+                                    </li>
+                                    <li>
+                                        <a href="#women-container"
+                                            >Want to contribute?</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="#men-container"
+                                            >About Bergen Science Museum</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="./pages/about/about.html"
+                                            >Need to contact us?</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="./index.html"
+                                            >Home</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </header>
+
+        
+
 
         <main>
             <section class="hero-wrapper">
                 <div class="hero-wrapper__background">
                     <p>Welcome to</p>
                     <h1>Bergen Science Museum</h1>
-                    <div class="custom-shape-divider-bottom-1707487344">
-                        <svg
-                            data-name="Layer 1"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 1200 120"
-                            preserveAspectRatio="none"
-                        >
-                            <path
-                                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                                class="shape-fill"
-                            ></path>
+                    <div class="custom-shape-divider-bottom-1707593276">
+                        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
                         </svg>
                     </div>
                 </div>
@@ -166,10 +123,11 @@
                 <h2>Upcoming events and activities</h2>
                 <div class="events__night-event">
                     <img
-                        src="./assets/images/luca-severin-HICcDxJ7PTM-unsplash.jpg"
-                        alt="picture of the museum at night - photo by luca severin"
+                    src="./assets/images/luca-severin-HICcDxJ7PTM-unsplash.jpg"
+                    alt="picture of the museum at night - photo by luca severin"
                     />
                     <div class="events__night-event__info">
+                        <div class="card__info">
                         <h3>A night in the museum!</h3>
                         <p>
                             Gather your family for an exciting night in the
@@ -182,64 +140,65 @@
                         </p>
                         <a href="./index.html">Book your spot now</a>
                     </div>
+                    </div>
                 </div>
                 <div class="events__other-events">
-                    <div class="card">
-                        <div>
-                            <img
-                                src="./assets/images/monica-garniga-XClNDg9Z9Ag-unsplash.jpg"
-                                alt="a floating comic book style astronaut - photo by monica garniga"
-                            />
+                    <article class="card">
+                        <img class="card__image"
+                        src="./assets/images/monica-garniga-XClNDg9Z9Ag-unsplash.jpg"
+                        alt="a floating comic book style astronaut - photo by monica garniga"
+                        />
+                        <div class="card__info">
+                            <h3>Visiting Professor of Aeronautics</h3>
+                            <p>
+                                It is our pleasure to announce that Professor Sheila
+                                Widnall from the Massachusetts Institute of
+                                Technology will be delivering 3 lectures on the
+                                development of aeronautics and where the future lies
+                                in this exciting ‘space’.
+                            </p>
+                            <a href="./index.html">Read more</a>
                         </div>
-                        <h3>Visiting Professor of Aeronautics</h3>
-                        <p>
-                            It is our pleasure to announce that Professor Sheila
-                            Widnall from the Massachusetts Institute of
-                            Technology will be delivering 3 lectures on the
-                            development of aeronautics and where the future lies
-                            in this exciting ‘space’.
-                        </p>
-                        <a href="./index.html">Read more</a>
-                    </div>
-                    <div class="card">
-                        <div>
-                            <img
-                                src="./assets/images/jason-leung-j6QZXBVysE8-unsplash.jpg"
-                                alt="wall-e figure holding a flower, made with lego - photo by jason leung"
-                            />
+                    </article>
+                    <article class="card">
+                        <img class="card__image"
+                        src="./assets/images/jason-leung-j6QZXBVysE8-unsplash.jpg"
+                        alt="wall-e figure holding a flower, made with lego - photo by jason leung"
+                        />
+                        <div class="card__info">
+                            <h3>Learn robot programming</h3>
+                            <p>
+                                Join us in this beginner’s course in learning robot
+                                programming during the winter break! This course is
+                                for children between 10 and 14 years of age.
+                            </p>
+                            <a href="./index.html">Read more</a>
                         </div>
-                        <h3>Learn robot programming</h3>
-                        <p>
-                            Join us in this beginner’s course in learning robot
-                            programming during the winter break! This course is
-                            for children between 10 and 14 years of age.
-                        </p>
-                        <a href="./index.html">Read more</a>
-                    </div>
-                    <div class="card">
-                        <div>
-                            <img
-                                src="./assets/images/joyce-adams-eF_3z15RmWY-unsplash.jpg"
-                                alt="dinosaur figures with birthday hats who looks at cake - photo by joyce adams"
-                            />
+                    </article>
+                    <article class="card">
+                        <img class="card__image"
+                        src="./assets/images/joyce-adams-eF_3z15RmWY-unsplash.jpg"
+                        alt="dinosaur figures with birthday hats who looks at cake - photo by joyce adams"
+                        />
+                        <div class="card__info">
+                            <h3>Want to Celebrate Your Birthday with us?</h3>
+                            <p>
+                                Ready to celebrate your special day with a fun
+                                adventure amidst the wonders of science? Don't
+                                worry, we'll make sure the dinosaurs stay far away
+                                from the cake! Let's make some scientific memories
+                                together!
+                            </p>
+                            <a href="./index.html">Read more</a>
                         </div>
-                        <h3>Want to Celebrate Your Birthday with us?</h3>
-                        <p>
-                            Ready to celebrate your special day with a fun
-                            adventure amidst the wonders of science? Don't
-                            worry, we'll make sure the dinosaurs stay far away
-                            from the cake! Let's make some scientific memories
-                            together!
-                        </p>
-                        <a href="./index.html">Read more</a>
-                    </div>
-                    <div class="card">
-                        <div>
-                            <img
-                                src="./assets/images/manel-sean-IF5G2tmZ7cg-unsplash.jpg"
-                                alt="a watermill from nemo science museum - photo by manel sean"
-                            />
-                        </div>
+                    </article>
+                    <article class="card"> 
+                        <img class="card__image"
+                        src="./assets/images/manel-sean-IF5G2tmZ7cg-unsplash.jpg"
+                        alt="a watermill from nemo science museum - photo by manel sean"
+                        />
+                        <div class="card__info">
+                        
                         <h3>Energetica Exhibition on Loan</h3>
                         <p>
                             On loan from the NEMO Science Museum in Amsterdam,
@@ -253,6 +212,7 @@
                         </p>
                         <a href="./index.html">Read more</a>
                     </div>
+                    </article>
                 </div>
             </section>
         </main>
