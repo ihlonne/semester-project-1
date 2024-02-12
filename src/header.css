@@ -1,11 +1,13 @@
 @import url('./variables.css');
 
+/* ----- HEADER ----- */
+
 .header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding: 0.5rem 0 0.5rem 6rem;
+    padding: 0.5rem 6em;
 
     height: 80px;
     width: 100%;
@@ -18,6 +20,8 @@
         padding: 0.5rem;
     }
 }
+
+/* ----- LOGO ----- */
 
 .header-wrapper__left {
     display: flex;
@@ -50,6 +54,33 @@
     }
 }
 
+/* ----- NAVIGATION ----- */
+
+.toggler {
+    position: fixed;
+
+    top: 15px;
+    right: 5rem;
+    width: 50px;
+    height: 50px;
+
+    cursor: pointer;
+    opacity: 0;
+    z-index: 5000;
+
+    @media only screen and (max-width: 800px) {
+        right: 0.5rem;
+    }
+}
+
+.toggler:checked {
+    top: 2.5rem;
+    right: 2.5rem;
+}
+.menu-wrap {
+    z-index: 999;
+}
+
 .header-wrapper__right ul {
     list-style: none;
 
@@ -71,43 +102,11 @@
     font-size: 1.25rem;
 }
 
-.menu-wrap {
-    position: fixed;
-    top: 15px;
-    right: 0px;
-    z-index: 999;
-}
-
-.toggler {
-    position: fixed;
-
-    top: 15px;
-    right: 5rem;
-    width: 50px;
-    height: 50px;
-
-    cursor: pointer;
-    opacity: 0;
-    z-index: 1000;
-
-    @media only screen and (max-width: 800px) {
-        right: 0.5rem;
-    }
-}
-
 .header-wrapper .menu-wrap .hamburger {
-    position: absolute;
+    background: url('../assets/images/bars-solid.svg') center / cover no-repeat;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    top: 0;
-    right: 5rem;
-    width: 60px;
-    height: 60px;
-
-    background: transparent;
+    width: 40px;
+    height: 40px;
     padding: 1rem;
     z-index: 999;
 
@@ -116,46 +115,13 @@
     }
 }
 
-/* Hamburger line */
-.header-wrapper .menu-wrap .hamburger > div {
-    position: relative;
-
-    display: flex;
-    flex: none;
-    justify-content: center;
-    align-items: center;
-
-    width: 100%;
-    height: 3px;
-
-    background-color: var(--dark-color);
-
-    transition: all 0.4s ease;
-}
-/* Top and bottom lines */
-.header-wrapper .menu-wrap .hamburger > div:before,
-.header-wrapper .menu-wrap .hamburger > div:after {
-    content: '';
-
-    position: absolute;
-
-    top: -10px;
-    width: 100%;
-    height: 3px;
-
-    background: inherit;
-
-    z-index: 999;
-}
-/* Moves one of the lines down */
-.header-wrapper .menu-wrap .hamburger > div:after {
-    top: 10px;
-}
-
 /* Toggler animation */
-.toggler:checked ~ .header-wrapper .menu-wrap .hamburger > div {
-    transform: rotate(135deg);
-    background-color: var(--light-color);
+.toggler:checked ~ .header-wrapper .menu-wrap .hamburger {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    background: url('../assets/images/xmark-solid.svg') center / cover no-repeat;
+    z-index: 1001;
 }
 
 /* Turns the lines into an X */
@@ -195,6 +161,7 @@
 
     visibility: hidden;
     overflow: hidden;
+    z-index: 1000;
 }
 
 .menu-wrap .menu > div {
