@@ -1,8 +1,8 @@
-@import url('./src/reset.css');
-@import url('./src/variables.css');
+@import url('./src/css/reset.css');
+@import url('./src/css/variables.css');
 
-@import url('./src/header.css');
-@import url('./src/footer.css');
+@import url('./src/css/header.css');
+@import url('./src/css/footer.css');
 
 /* ----- HERO ----- */
 
