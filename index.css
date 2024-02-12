@@ -1,84 +1,8 @@
-@import url('./src/css/reset.css');
-@import url('./src/css/variables.css');
+@import url('./src/css/global.css');
 
-@import url('./src/css/header.css');
-@import url('./src/css/footer.css');
-
-/* ----- HERO ----- */
-
-.hero-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 70vh;
-    width: 90%;
-
-    margin: 0 auto;
-
-    @media only screen and (max-width: 800px) {
-        width: 100%;
-    }
-}
-
-.hero-wrapper__background {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 100%;
-    width: 100%;
-
+.landing-hero__background {
     background: url('./assets/images/adria-garcia-sarceda-O560d5Mnc04-unsplash.jpg')
         center / cover no-repeat;
-
-    & p {
-        color: var(--light-color);
-        font-size: 1.5rem;
-        font-weight: 600;
-        font-style: italic;
-        text-transform: uppercase;
-        letter-spacing: 10px;
-
-        @media only screen and (max-width: 800px) {
-            font-size: 1rem;
-        }
-    }
-
-    & h1 {
-        color: var(--light-color);
-        font-family: var(--rubik-glitch);
-        font-size: 4rem;
-        text-transform: uppercase;
-        opacity: 0.5;
-        text-align: center;
-
-        @media only screen and (max-width: 800px) {
-            font-size: 3.5rem;
-        }
-    }
-}
-
-.custom-shape-divider-bottom-1707593276 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1707593276 svg {
-    position: relative;
-    display: block;
-    width: calc(150% + 1.3px);
-    height: 99px;
-}
-
-.custom-shape-divider-bottom-1707593276 .shape-fill {
-    fill: #ffffff;
 }
 
 /* ----- EVENTS ----- */
