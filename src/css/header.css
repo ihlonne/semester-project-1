@@ -103,7 +103,8 @@
 }
 
 .header-wrapper .menu-wrap .hamburger {
-    background: url('../assets/images/bars-solid.svg') center / cover no-repeat;
+    background: url('../../assets/images/bars-solid.svg') center / cover
+        no-repeat;
 
     width: 40px;
     height: 40px;
@@ -120,7 +121,8 @@
     position: fixed;
     top: 2rem;
     right: 2rem;
-    background: url('../assets/images/xmark-solid.svg') center / cover no-repeat;
+    background: url('../../assets/images/xmark-solid.svg') center / cover
+        no-repeat;
     z-index: 1001;
 }
 
