@@ -1,12 +1,18 @@
+/* Resets and variables */
 @import url('./reset.css');
 @import url('./variables.css');
 
+/* Header and footer */
 @import url('./header.css');
 @import url('./footer.css');
 
+/* Pages */
 @import url('../../index.css');
 @import url('./about.css');
 @import url('./contribution.css');
+@import url('./contact-us.css');
+@import url('./birthday.css');
+@import url('./events.css');
 
 h1 {
     font-size: 2rem;
