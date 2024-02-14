@@ -1,3 +1,10 @@
+@import url('./global.css');
+
+.contribution-hero__background {
+    background: url('../../assets/images/william-bout-264826.jpg') center /
+        cover no-repeat;
+}
+
 .information-wrapper {
     display: flex;
     flex-direction: column;
