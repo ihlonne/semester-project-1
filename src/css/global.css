@@ -13,6 +13,7 @@
 @import url('./contact-us.css');
 @import url('./birthday.css');
 @import url('./events.css');
+@import url('./exhibitions.css');
 
 h1 {
     font-size: 2rem;
@@ -58,6 +59,8 @@ main {
     height: 100%;
     width: 100%;
 
+    text-align: center;
+
     & p {
         color: var(--light-color);
         font-size: 1.5rem;
@@ -77,7 +80,6 @@ main {
         font-size: 4rem;
         text-transform: uppercase;
         opacity: 0.5;
-        text-align: center;
 
         @media only screen and (max-width: 800px) {
             font-size: 3.5rem;
@@ -104,4 +106,51 @@ main {
 
 .custom-shape-divider-bottom-1707593276 .shape-fill {
     fill: #ffffff;
+}
+
+.events__other-events {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    justify-content: center;
+    gap: 2rem;
+    width: 80%;
+
+    margin: 2rem;
+
+    @media only screen and (max-width: 470px) {
+        grid-template-columns: 1fr;
+        margin: 1rem 0 0 0;
+        width: 100%;
+    }
+}
+
+.events__other-events .card img {
+    width: 100%;
+    height: 300px;
+    max-height: 300px;
+    object-fit: cover;
+
+    @media only screen and (max-width: 450px) {
+        height: 200px;
+    }
+}
+
+.events__other-events .card__info {
+    & h3 {
+        margin: 0.5rem 0 2rem 0;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    & p {
+        margin-bottom: 1rem;
+    }
+
+    & a {
+        color: var(--purple);
+        font-weight: 700;
+    }
+    @media only screen and (max-width: 450px) {
+        margin: 0 1rem;
+    }
 }
