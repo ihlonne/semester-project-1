@@ -1,0 +1,27 @@
+@import url('./global.css');
+
+.exhibitions-hero__background {
+    background: url('../../assets/images/arseny-togulev-Ch2kxtjeEEc-unsplash.jpg')
+        center / cover no-repeat;
+}
+
+.exhibitions-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.evolution-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.evolution-wrapper p {
+    margin-top: 1rem;
+}
