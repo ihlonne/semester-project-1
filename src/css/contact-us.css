@@ -1,0 +1,111 @@
+@import url('./global.css');
+
+.exhibitions-hero__background {
+    background: url('https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7886.356745399663!2d5.3187825!3d60.385946!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463cfc01b28180bd%3A0x74b5075aad390869!2sNoroff%20Bergen!5e0!3m2!1sen!2sno!4v1708592993426!5m2!1sen!2sno')
+        center / cover no-repeat;
+}
+
+.form-wrapper {
+    max-width: 650px;
+}
+
+.form-wrapper h1 {
+    justify-self: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    color: var(--dark-color);
+}
+
+form > div:first-of-type {
+    display: flex;
+    gap: 1rem;
+}
+
+.field-holder {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.field-holder label {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    margin: 0.75rem 0 0 1rem;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.2s ease;
+}
+
+.field-holder input,
+.field-holder textarea,
+.field-holder select {
+    background: var(--light-color);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    color: var(--dark-color);
+    text-indent: 15px;
+}
+
+.field-holder input[type='text'],
+.field-holder input[type='email'],
+.field-holder input[type='tel'] {
+    height: 55px;
+}
+
+.field-holder textarea {
+    padding-top: 1rem;
+    height: 250px;
+}
+
+.field-holder input,
+.field-holder label {
+    width: 100%;
+}
+
+.field-holder input:focus + label,
+.field-holder textarea:focus + label {
+    background: var(--light-color);
+    color: var(--dark-color);
+    font-size: 0.95rem;
+    font-weight: 700;
+    top: -22px;
+    left: 0px;
+    pointer-events: none;
+    width: auto;
+}
+
+.news-letter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.news-letter input[type='checkbox'] {
+    opacity: 0.25;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.news-letter input[type='checkbox']:checked {
+    accent-color: var(--purple);
+    opacity: 1;
+}
+
+#submit-btn {
+    height: 45px;
+    color: var(--light-color);
+    background: var(--purple);
+    font-weight: 700;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
