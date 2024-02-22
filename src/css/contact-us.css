@@ -7,10 +7,15 @@
 
 .form-wrapper {
     max-width: 650px;
+    margin: 0 1rem;
+
+    @media only screen and (ma-width: 768px) {
+        width: 90%;
+    }
 }
 
 .form-wrapper h1 {
-    justify-self: center;
+    text-align: center;
 }
 
 form {
@@ -19,6 +24,10 @@ form {
     gap: 0.5rem;
 
     color: var(--dark-color);
+
+    @media only screen and (ma-width: 768px) {
+        margin: 0 1.5rem;
+    }
 }
 
 form > div:first-of-type {
