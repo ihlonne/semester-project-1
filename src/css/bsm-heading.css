@@ -465,7 +465,7 @@
         font 7s step-end infinite, movement 8s step-end infinite;
 }
 
-h1 {
+.landing-hero__background h1 {
     color: var(--light-color);
     font-family: var(--rubik-glitch);
     font-size: 4rem;

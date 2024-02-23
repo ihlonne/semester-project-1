@@ -73,18 +73,6 @@ main {
             font-size: 1rem;
         }
     }
-
-    & h1 {
-        color: var(--light-color);
-        font-family: var(--rubik-glitch);
-        font-size: 4rem;
-        text-transform: uppercase;
-        opacity: 0.5;
-
-        @media only screen and (max-width: 800px) {
-            font-size: 3.5rem;
-        }
-    }
 }
 
 /* ----- WAVE SHAPE ON BOTTOM OF HERO ----- */
@@ -157,7 +145,7 @@ main {
     }
 }
 
-/* ----- MAIN EVENT ----- *
+/* ----- MAIN EVENT ----- */
 
 .main-event-wrapper {
     display: flex;
