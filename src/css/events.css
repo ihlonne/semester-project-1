@@ -1,0 +1,6 @@
+@import url('./global.css');
+
+.events-wrapper__background {
+    background: url('../../assets/images/luca-severin-HICcDxJ7PTM-unsplash.jpg')
+        center / cover no-repeat;
+}
