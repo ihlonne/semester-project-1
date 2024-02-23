@@ -161,18 +161,65 @@
 .info-wrapper-bottom__social-media {
     display: flex;
     gap: 1.5rem;
+
+    > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 1rem;
+
+        height: 45px;
+        width: 45px;
+
+        border: 1px solid var(--light-color);
+        border-radius: 50%;
+        transition: 1s ease;
+    }
+
+    > div:hover {
+        background: linear-gradient(270deg, #793fbb, #f2889b, #f4c87b, #97bae9);
+        background-size: 800% 800%;
+
+        -webkit-animation: gradientBg 5s ease infinite;
+        -moz-animation: gradientBg 5s ease infinite;
+        animation: gradientBg 5s ease infinite;
+
+        height: 50px;
+        width: 50px;
+    }
 }
 
-.info-wrapper-bottom__social-media > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding: 1rem;
-
-    height: 45px;
-    width: 45px;
-
-    border: 1px solid var(--light-color);
-    border-radius: 50%;
+@-webkit-keyframes gradientBg {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@-moz-keyframes gradientBg {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@keyframes gradientBg {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
