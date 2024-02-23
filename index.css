@@ -1,4 +1,5 @@
 @import url('./src/css/global.css');
+@import url('./src/css/bsm-heading.css');
 
 .landing-hero__background {
     background: url('./assets/images/adria-garcia-sarceda-O560d5Mnc04-unsplash.jpg')
