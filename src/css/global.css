@@ -87,6 +87,8 @@ main {
     }
 }
 
+/* ----- WAVE SHAPE ON BOTTOM OF HERO ----- */
+
 .custom-shape-divider-bottom-1707593276 {
     position: absolute;
     bottom: 0;
@@ -154,6 +156,22 @@ main {
         margin: 0 1rem;
     }
 }
+
+/* ----- MAIN EVENT ----- *
+
+.main-event-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main-event-wrapper p {
+    margin-top: 1rem;
+}
+
+/* ----- WRAPPER ON PRIVACY / TERMS & CONDITIONS ----- */
 
 .general-wrapper {
     display: flex;
