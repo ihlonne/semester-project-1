@@ -221,3 +221,9 @@
 .menu-wrap .menu > div > div > ul > li > details a {
     margin-left: 0.5rem;
 }
+
+.navigation__links details a {
+    display: flex;
+    padding-left: 0.5rem;
+    margin-top: 1rem;
+}
