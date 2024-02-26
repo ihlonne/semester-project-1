@@ -36,14 +36,10 @@ main {
     justify-content: center;
     align-items: center;
 
-    height: 70vh;
-    width: 90%;
+    height: 85vh;
+    width: 100%;
 
     margin: 0 auto;
-
-    @media only screen and (max-width: 800px) {
-        width: 100%;
-    }
 }
 
 .hero-wrapper__background img {
@@ -97,6 +93,8 @@ main {
 .custom-shape-divider-bottom-1707593276 .shape-fill {
     fill: #ffffff;
 }
+
+/* ----- EVENTS ----- */
 
 .events__other-events {
     display: grid;
