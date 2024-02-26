@@ -2,6 +2,11 @@
 
 /* ----- ABOUT  ----- */
 
+.about__background {
+    background: url('../../assets/images/scott-webb-102825.jpg') center / cover
+        no-repeat;
+}
+
 .about-wrapper {
     display: flex;
     flex-direction: column;
