@@ -98,8 +98,6 @@
     gap: 2rem;
     width: 100%;
 
-    text-align: center;
-
     & h2 {
         font-size: 1.25rem;
         font-weight: 700;
@@ -120,7 +118,7 @@
 
     & h3 {
         margin: 1.5rem 0 1rem 0;
-        font-size: 1.25rem;
+        font-size: 1.15rem;
         font-weight: 700;
     }
 
@@ -130,5 +128,7 @@
 
     @media only screen and (max-width: 900px) {
         width: 90%;
+
+        text-align: center;
     }
 }
