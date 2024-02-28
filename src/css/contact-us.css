@@ -1,9 +1,4 @@
 @import url('./global.css');
-/* 
-.exhibitions-hero__background {
-    background: url('https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7886.356745399663!2d5.3187825!3d60.385946!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463cfc01b28180bd%3A0x74b5075aad390869!2sNoroff%20Bergen!5e0!3m2!1sen!2sno!4v1708592993426!5m2!1sen!2sno')
-        center / cover no-repeat;
-} */
 
 .hero-wrapper__background iframe {
     height: 100%;
@@ -51,7 +46,7 @@ form > div:first-of-type {
     align-items: center;
     top: 0;
     left: 0;
-    margin: 0.75rem 0 0 1rem;
+    margin: 1rem 0 0 1rem;
     width: 100%;
     color: rgba(0, 0, 0, 0.5);
     transition: 0.2s ease;
@@ -91,7 +86,7 @@ form > div:first-of-type {
     color: var(--dark-color);
     font-size: 0.95rem;
     font-weight: 700;
-    top: -22px;
+    top: -25px;
     left: 0px;
     pointer-events: none;
     width: auto;
