@@ -85,7 +85,7 @@
         text-decoration: none;
     }
 
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 1000px) {
         width: 110%;
         margin: 2rem -1rem 0 -1rem;
         padding: 2rem;
@@ -97,6 +97,10 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     width: 100%;
+
+    > div {
+        max-width: 350px;
+    }
 
     & h2 {
         font-size: 1.25rem;
@@ -127,8 +131,11 @@
     }
 
     @media only screen and (max-width: 900px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 90%;
-
         text-align: center;
     }
 }
