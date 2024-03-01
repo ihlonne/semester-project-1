@@ -1,6 +1,7 @@
 @import url('./global.css');
 
 .exhibitions-hero__background {
+    /* ----- Image by Arseny Togulev @ tetrakiss ----- */
     background: url('../../assets/images/arseny-togulev-Ch2kxtjeEEc-unsplash.jpg')
         center / cover no-repeat;
 }

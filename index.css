@@ -1,8 +1,8 @@
 @import url('./src/css/global.css');
 @import url('./src/css/bsm-heading.css');
 
-/* Photo by Adria Garcia */
 .landing-hero__background {
+    /* ----- Image by Adria Garcia @ leonidasph ----- */
     background: url('./assets/images/adria-garcia-sarceda-O560d5Mnc04-unsplash.jpg')
         center / cover no-repeat;
 }

@@ -3,6 +3,7 @@
 /* ----- ABOUT  ----- */
 
 .about__background {
+    /* ----- Image by Scott Webb @scottwebb ----- */
     background: url('../../assets/images/scott-webb-102825.jpg') center / cover
         no-repeat;
 }

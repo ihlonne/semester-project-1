@@ -1,6 +1,7 @@
 @import url('./global.css');
 
 .birthday-wrapper__background {
+    /* ----- Image by Nik @ helloimnik ----- */
     background: url('../../assets/images/nik-5dgHxsvJ170-unsplash.jpg') center /
         cover no-repeat;
 }

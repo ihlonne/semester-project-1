@@ -1,6 +1,7 @@
 @import url('./global.css');
 
 .contribution-hero__background {
+    /* ----- Image by William Bout @ williambout ----- */
     background: url('../../assets/images/william-bout-264826.jpg') center /
         cover no-repeat;
 }

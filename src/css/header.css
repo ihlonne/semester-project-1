@@ -121,7 +121,8 @@
     }
 }
 
-/* Toggler animation */
+/* ----- TOGGLER  ----- */
+
 .toggler:checked ~ .header-wrapper .menu-wrap .hamburger {
     position: fixed;
     top: 2rem;
@@ -130,15 +131,7 @@
         no-repeat;
     z-index: 1001;
 }
-
-/* Turns the lines into an X */
-.toggler:checked ~ .header-wrapper .menu-wrap .hamburger > div:before,
-.toggler:checked ~ .header-wrapper .menu-wrap .hamburger > div:after {
-    top: 0;
-    transform: rotate(90deg);
-}
-
-/* Show the menu */
+/* ----- SHOW THE MENU ----- */
 
 .toggler:checked + .header-wrapper .menu-wrap .menu {
     visibility: visible;
@@ -170,6 +163,8 @@
     overflow: hidden;
     z-index: 1000;
 }
+
+/* ----- NAVIGATION STYLES ----- */
 
 .menu-wrap .menu > div {
     position: fixed;
