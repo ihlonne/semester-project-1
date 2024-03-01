@@ -21,6 +21,11 @@ h1 {
     margin-bottom: 2rem;
 }
 
+a {
+    font-weight: 700;
+    color: var(--dark-color);
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -136,10 +141,6 @@ main {
         margin-bottom: 1rem;
     }
 
-    & a {
-        color: var(--purple);
-        font-weight: 700;
-    }
     @media only screen and (max-width: 450px) {
         margin: 0 1rem;
     }
