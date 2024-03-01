@@ -124,10 +124,12 @@ main {
 }
 
 .events__other-events .card__info {
-    & h3 {
+    & h2,
+    h3 {
         margin: 0.5rem 0 2rem 0;
         text-transform: uppercase;
         font-weight: 700;
+        font-size: 1.15rem;
     }
 
     & p {
@@ -150,6 +152,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 4rem;
     width: 100%;
 }
 
