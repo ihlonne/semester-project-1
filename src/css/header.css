@@ -73,6 +73,11 @@
     }
 }
 
+.checkbox-label,
+.newsletter-label {
+    display: none;
+}
+
 .toggler:checked {
     top: 2.5rem;
     right: 2.5rem;
