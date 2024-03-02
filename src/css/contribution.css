@@ -7,9 +7,7 @@
 }
 
 .information-wrapper {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
 
     & h1 {

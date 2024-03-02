@@ -59,41 +59,6 @@
     flex-basis: 75%;
 }
 
-.contact-us-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-basis: 25%;
-
-    width: 265px;
-
-    padding: 1.75rem;
-
-    background: var(--dark-color);
-    color: var(--light-color);
-
-    @media only screen and (max-width: 1000px) {
-        width: 110%;
-        margin: -1rem;
-    }
-}
-.contact-us-wrapper span {
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.contact-us-wrapper p {
-    margin: 1rem 0 2.5rem 0;
-}
-.contact-us-wrapper a {
-    background: var(--purple);
-    color: var(--light-color);
-    font-weight: 700;
-    padding: 0.5rem 2rem;
-    border-radius: 2px;
-    text-decoration: none;
-}
-
 /* ----- PRACTICAL INFO  ----- */
 
 .practical-info-wrapper {

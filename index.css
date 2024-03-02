@@ -1,19 +1,22 @@
 @import url('./src/css/global.css');
-@import url('./src/css/bsm-heading.css');
+@import url('./src/css/glitching.css');
 
-.landing-hero__background {
+.landing__background {
     /* ----- Image by Adria Garcia @ leonidasph ----- */
     background: url('./assets/images/adria-garcia-sarceda-O560d5Mnc04-unsplash.jpg')
         center / cover no-repeat;
+
+    & h1 {
+        font-family: var(--rubik-glitch);
+        font-size: 4rem;
+        text-transform: uppercase;
+    }
 }
 
 /* ----- EVENTS ----- */
 
 .events-wrapper {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     width: 100%;
 
@@ -47,9 +50,7 @@
     }
 
     > div {
-        display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: flex-start;
         width: 35%;
 

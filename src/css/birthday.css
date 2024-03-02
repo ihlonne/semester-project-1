@@ -1,16 +1,13 @@
 @import url('./global.css');
 
-.birthday-wrapper__background {
+.birthday__background {
     /* ----- Image by Nik @ helloimnik ----- */
     background: url('../../assets/images/nik-5dgHxsvJ170-unsplash.jpg') center /
         cover no-repeat;
 }
 
 .birthday-info-wrapper {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     width: 70vw;
     margin: 2rem auto;
@@ -52,44 +49,6 @@
     @media only screen and (max-width: 900px) {
         grid-template-columns: 1fr;
         margin: 2rem;
-    }
-}
-
-.contact-us-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-
-    width: 265px;
-
-    padding: 1.75rem;
-
-    background: var(--dark-color);
-    color: var(--light-color);
-
-    & span {
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-    & p {
-        margin: 1rem 0 2.5rem 0;
-    }
-
-    & a {
-        background: var(--purple);
-        color: var(--light-color);
-        font-weight: 700;
-        padding: 0.5rem 2rem;
-        border-radius: 2px;
-        text-decoration: none;
-    }
-
-    @media only screen and (max-width: 1000px) {
-        width: 110%;
-        margin: 2rem -1rem 0 -1rem;
-        padding: 2rem;
     }
 }
 
