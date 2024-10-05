@@ -4,6 +4,7 @@ This is the first semester project in the front-end development course I am taki
 
 ![semester-project-screenshot](https://scontent.fosl3-1.fna.fbcdn.net/v/t1.15752-9/461426809_1004645001431660_5043756933837551124_n.png?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_ohc=9z6zAo_GrfgQ7kNvgEaEnbv&_nc_ht=scontent.fosl3-1.fna&_nc_gid=Alru8f9UoBWqKhr8LZsHOgz&oh=03_Q7cD1QEWAjuAzbIJxGKusVg_g06ZkT7BH4mnSsypCFwMury1wg&oe=6728A768)
 
+[Live Preview](https://sp1-ihlonne.netlify.app/)
 
 ## Table of contents
 
