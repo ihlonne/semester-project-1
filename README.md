@@ -2,9 +2,27 @@
 
 This is the first semester project in the front-end development course I am taking at Noroff Education.
 
+![semester-project-screenshot]([https://github.com/user-attachments/assets/10bc239b-544a-42a2-bf9f-9e87fb251c28](https://scontent.fosl3-1.fna.fbcdn.net/v/t1.15752-9/461426809_1004645001431660_5043756933837551124_n.png?stp=dst-png_p206x206&_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=9z6zAo_GrfgQ7kNvgEaEnbv&_nc_ht=scontent.fosl3-1.fna&_nc_gid=AV1RykDAGZ-49OpjANXlADw&oh=03_Q7cD1QEi3yEytG1WoClPo9OdyByUFBi9p86l_Xa6CeBYWNS6OQ&oe=6728A768))
+
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Client](#client)
+  - [Brief](#brief)
+  - [User Stories](#user-stories)
+  - [Views](#views)
+  - [Requirements](#requirements)
+  - [Limitations](#limitations)
+  - [Installation](#installation)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Resources](#resources)
+
 ## Overview
 
-### Instructions
+### The challenge
 
 This assignment simulates a real-world brief that you may receive at from a web agency. The aim is to use your new knowledge of project planning, web design and development to complete the brief in the available time
 
@@ -63,16 +81,38 @@ Please be aware of the following project limitations:
 -   You may not use unlicensed imagery in this assignment.
 -   You may not use JavaScript in this assignment.
 
-### Deliverables
+### Installation
 
-In order to complete the project we require the following assets to be supplied in your submission:
+Ensure you have Git installed on your computer.
 
--   (Figma) Style guide showing logo, colour scheme, typography and style rules.
--   (Figma) High fidelity wireframe for each requested view.
--   (GitHub) Project source code hosted in a public repository.
--   (GitHub Pages) Deployed project preview URL.
--   (GitHub Projects) Project Kanban board showing project progress.
--   (Word) Written report including references.
+1. Clone the repository:
+
+Link to download: [Git](https://git-scm.com/downloads)
+
+```
+git clone "[https://github.com/NoroffFEU/FED1-PE1-ihlonne.git](https://github.com/ihlonne/semester-project-1.git)"
+```
+
+2. Move into the folder
+
+```
+cd semester-project-1
+```
+
+3. Open folder in Visual Studio Code
+
+```
+code .
+```
+
+## My Process
+
+### Built with
+
+<code><img width="45" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png" alt="HTML" title="HTML"/></code>
+<code><img width="45" src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png" alt="CSS" title="CSS"/></code>
+<code><img width="45" src="https://user-images.githubusercontent.com/25181517/189715289-df3ee512-6eca-463f-a0f4-c10d94a06b2f.png" alt="Figma" title="Figma"/></code>
+<code><img width="45" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></code>
 
 ### Resources
 
