@@ -2,7 +2,7 @@
 
 This is the first semester project in the front-end development course I am taking at Noroff Education.
 
-![semester-project-screenshot]([https://github.com/user-attachments/assets/10bc239b-544a-42a2-bf9f-9e87fb251c28](https://scontent.fosl3-1.fna.fbcdn.net/v/t1.15752-9/461426809_1004645001431660_5043756933837551124_n.png?stp=dst-png_p206x206&_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=9z6zAo_GrfgQ7kNvgEaEnbv&_nc_ht=scontent.fosl3-1.fna&_nc_gid=AV1RykDAGZ-49OpjANXlADw&oh=03_Q7cD1QEi3yEytG1WoClPo9OdyByUFBi9p86l_Xa6CeBYWNS6OQ&oe=6728A768))
+![semester-project-screenshot](https://scontent.fosl3-1.fna.fbcdn.net/v/t1.15752-9/461426809_1004645001431660_5043756933837551124_n.png?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_ohc=9z6zAo_GrfgQ7kNvgEaEnbv&_nc_ht=scontent.fosl3-1.fna&_nc_gid=Alru8f9UoBWqKhr8LZsHOgz&oh=03_Q7cD1QEWAjuAzbIJxGKusVg_g06ZkT7BH4mnSsypCFwMury1wg&oe=6728A768)
 
 
 ## Table of contents
